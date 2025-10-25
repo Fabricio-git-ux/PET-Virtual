@@ -59,6 +59,7 @@
                 echo "<p>Seu PET está sem energia! Dê um tempo para ele descansar. 💤</p>";
                 $energia = 0; // Limita a energia mínima a 0
             }
+            
         } elseif ($acao == "brincar") {
             echo "<p>Você brincou com seu PET! 🎾</p>";
             if($humor > 100) {
@@ -68,6 +69,7 @@
                 echo "<p>Seu PET está triste! Dê mais atenção a ele. 😢</p>";
                 $humor = 0; // Limita o humor mínimo a 0
             }
+
         } elseif ($acao == "dormir") {
             echo "<p>Seu PET dormiu! 😴</p>";
             if($energia > 100) {
@@ -77,6 +79,7 @@
                 echo "<p>Seu PET está sem energia! Dê um tempo para ele descansar. 💤</p>";
                 $energia = 0; // Limita a energia mínima a 0
             }
+
         } elseif ($acao == "carinho") {
             echo "<p>Você fez carinho no seu PET! ❤️</p>";
             if($humor > 100) {
